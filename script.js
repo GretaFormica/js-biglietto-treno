@@ -21,3 +21,7 @@ if(Anni < 18){
 
 //arrotondamento
 Prezzo = Prezzo.toFixed(2);
+
+//output
+
+document.getElementById('h1').innerHTML= `Il prezzo totale per il tuo viaggio è di ${Prezzo} euro`
